@@ -1,4 +1,4 @@
-﻿clFFT
+clFFT
 =====
 [![Build Status](https://travis-ci.org/clMathLibraries/clFFT.png)](https://travis-ci.org/clMathLibraries/clFFT)
 
@@ -48,7 +48,7 @@ Pre-built binaries are available [here][binary_release].
 The clFFT library version number adheres to [semantic versioning](http://semver.org/) guidelines. 
 The version number of the current release of the clFFT library is 2.6.1.
 
-## What's New
+## What's new
 
 The beta1 release of the clFFT library includes the following enhancements: 
 
