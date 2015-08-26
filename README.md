@@ -1,4 +1,4 @@
-clFFT
+﻿clFFT
 =====
 [![Build Status](https://travis-ci.org/clMathLibraries/clFFT.png)](https://travis-ci.org/clMathLibraries/clFFT)
 
@@ -48,9 +48,11 @@ Pre-built binaries are available [here][binary_release].
 The clFFT library version number adheres to [semantic versioning](http://semver.org/) guidelines. 
 The version number of the current release of the clFFT library is 2.6.1.
 
+Pre-built binaries are available [here][binary_release].
+
 ## What's new
 
-The beta1 release of the clFFT library includes the following enhancements: 
+The beta1 release includes the following enhancements: 
 
 -   Significant uplift of 1D complex transform performance
 -   Significant uplift of 1D real transform performance for power-of-2 sizes
@@ -93,7 +95,7 @@ The source for clFFT is licensed under the [Apache License, Version
 
 ## Example
 
-The simple example below shows how to use clFFT to compute an simple 1D
+The following example shows how to use clFFT to compute a simple 1D
 forward transform
 ```c
 #include <stdlib.h>
@@ -184,8 +186,9 @@ int main( void )
 
 ## Build dependencies
 
-This section lists the packages needed to develop the clFFT library code and 
-to test and measure the performance of the developed code. 
+This section lists the packages needed to develop the clFFT library code based on 
+the operating  system and the framework required to test and measure the performance 
+of the developed code. 
 
 ### Library for Windows
 
@@ -202,7 +205,7 @@ following packages are installed on your system:
 
 ### Library for Linux
 
-To develop the clFFT library code on a Linux operating system, ensure that the 
+To develop the clFFT library code on a Linux operating system, ensure that the  
 following packages are installed on your system:
 
 -   GCC 4.6 and onwards
